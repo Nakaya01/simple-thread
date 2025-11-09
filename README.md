@@ -76,7 +76,7 @@ Jika ingin menghapus semua data untuk percobaan ulang:
 TRUNCATE TABLE users;
 ```
 
-# Contoh Output
+## Contoh Output pada Terminal
 ```
 Driver ditemukan!
 Data tersimpan: Andra - andra@email.com
