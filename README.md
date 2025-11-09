@@ -84,3 +84,5 @@ Driver ditemukan!
 Data berhasil dimuat ke GUI.
 ```
 
+## Output pada GUI
+![Output Program](assets/Foto_Hasil.png)
