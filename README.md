@@ -57,3 +57,30 @@ private static final String URL = "jdbc:mysql://localhost:3306/thread_db";
 private static final String USER = "root";       // Ubah sesuai setting
 private static final String PASSWORD = "";       // Ubah jika MySQL pakai password
 ```
+
+# Cara Menjalankan Program
+
+## Compile
+```java
+javac -d bin -cp "lib/mysql-connector-j-9.5.0.jar" src/*.java
+
+```
+## Jalankan
+```java
+java -cp "bin;lib/mysql-connector-j-9.5.0.jar" Main
+
+```
+## Reset DB (Optional)
+Jika ingin menghapus semua data untuk percobaan ulang:
+```sql
+TRUNCATE TABLE users;
+```
+
+# Contoh Output
+```
+Driver ditemukan!
+Data tersimpan: Andra - andra@email.com
+Driver ditemukan!
+Data berhasil dimuat ke GUI.
+```
+
